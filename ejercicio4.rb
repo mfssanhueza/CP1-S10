@@ -15,6 +15,6 @@ module Semana
   end
 end
 
-puts "La semana comienza el día #{Semana.primer_dia}"
-puts Semana.en_un_meses
-puts Semana.en_un_año
+puts "La semana comienza el día #{Semana::primer_dia}"
+puts Semana::en_un_meses
+puts Semana::en_un_año

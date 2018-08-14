@@ -5,7 +5,7 @@ class MiClase
     end
 
     def self.saludar
-        "Hola! Soy la clase #{MiClase.new(name).class}"
+        "Hola! Soy la clase #{MiClase.new('x').class}"
     end
 end
 
